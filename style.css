@@ -1,119 +1,206 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* BODY */
+
 body{
 
-font-family:Arial,sans-serif;
+    background:#F5F7FA;
 
-margin:30px;
+    font-family:'Poppins',sans-serif;
 
-background:#f4f4f4;
+    color:#1F2937;
 
+    padding:40px;
 }
 
-header{
+/* CONTAINER */
 
-text-align:center;
+.container{
 
+    max-width:900px;
+
+    margin:auto;
 }
 
-table{
+/* CARD */
 
-width:100%;
+.card{
 
-border-collapse:collapse;
+    background:white;
 
-margin-top:20px;
+    padding:30px;
 
-background:white;
+    margin-bottom:30px;
 
+    border-radius:12px;
+
+    border:1px solid #D1D5DB;
+
+    box-shadow:0px 4px 10px rgba(0,0,0,0.1);
 }
 
-th,td{
+/* HEADINGS */
 
-border:1px solid #ccc;
+h1{
 
-padding:12px;
+    font-family:'Merriweather',serif;
 
-text-align:left;
+    color:#2563EB;
 
+    margin-bottom:10px;
+
+    text-align:center;
 }
 
-th{
+h2{
 
-background:#4CAF50;
+    font-family:'Merriweather',serif;
 
-color:white;
+    color:#1F2937;
 
+    margin-bottom:20px;
 }
 
-tr:nth-child(even){
+/* PARAGRAPH */
 
-background:#f2f2f2;
+p{
 
+    text-align:center;
+
+    color:#6B7280;
 }
 
-tr:hover{
+/* FORM */
 
-background:#d9edf7;
+form{
 
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
 }
 
-button{
+/* LABELS */
 
-background:#4CAF50;
+label{
 
-color:white;
-
-padding:12px 20px;
-
-border:none;
-
-cursor:pointer;
-
+    font-weight:bold;
 }
 
-button:hover{
+/* INPUTS */
 
-background:#2e7d32;
+input{
 
-}
+    padding:12px;
 
-input,select{
+    border:1px solid #D1D5DB;
 
-padding:8px;
+    border-radius:8px;
 
-width:300px;
-
+    font-size:15px;
 }
 
 input:focus{
 
-border:2px solid blue;
+    outline:none;
 
-outline:none;
-
+    border-color:#2563EB;
 }
 
-.expenses-section td{
+/* BUTTON */
 
-color:#333;
+button{
 
+    background:#2563EB;
+
+    color:white;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:0.3s;
 }
 
-/* Direct Child Selector */
+button:hover{
 
-.add-expense-section > form{
-
-background:white;
-
-padding:20px;
-
-border-radius:10px;
-
+    background:#1D4ED8;
 }
 
-/* Negation Selector */
+/* TABLE */
 
-input:not([type="date"]){
+table{
 
-background:#fffef2;
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+}
+
+/* HEADER */
+
+th{
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:15px;
+
+    text-align:left;
+}
+
+/* CELLS */
+
+td{
+
+    padding:15px;
+
+    border-bottom:1px solid #D1D5DB;
+}
+
+/* ALTERNATING ROWS */
+
+tbody tr:nth-child(even){
+
+    background:#F3F4F6;
+}
+
+/* HOVER */
+
+tbody tr:hover{
+
+    background:#DBEAFE;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+table{
+
+    display:block;
+
+    overflow-x:auto;
+}
+
+body{
+
+    padding:20px;
+}
 
 }
