@@ -1,109 +1,137 @@
-# Budget-TrackerBudget Tracker – Week 3 Visual Design Challenge
-Project Overview
-This project is a simple Budget Tracker web application developed using HTML and CSS. The goal of this week's assignment was to improve the visual appearance of the existing application without changing its functionality. The project focuses on applying CSS techniques such as color palettes, typography, table and form styling, and the CSS Box Model to create a clean, modern, and user-friendly interface.
+# Budget Tracker – Week 3 Visual Design Challenge
 
-Objectives
-This project demonstrates how to:
+## Project Overview
 
-Apply a consistent and professional color palette.
-Use Google Fonts to improve readability and visual hierarchy.
-Style forms and tables for better usability.
-Apply the CSS Box Model to organize content into visually distinct sections.
-Improve the overall user experience through modern CSS styling.
-Features
-Clean and responsive page layout.
-Professional color palette applied consistently throughout the application.
-Google Fonts for improved typography.
-Styled "Add Expense" form with rounded inputs and buttons.
-Well-formatted expense table with:
-Styled table headers
-Cell padding
-Borders
-Alternating row colors
-Hover effects
-Card-style layout using borders, padding, margins, border-radius, and box shadows.
-Hover effects for buttons and table rows.
-Technologies Used
-HTML5
-CSS3
-Google Fonts
-Project Structure
+This project is a simple **Budget Tracker** developed using HTML and CSS. The objective of this assignment was to improve the visual appearance of an existing budget tracker by applying modern CSS styling techniques without changing the application's functionality.
+
+The project demonstrates the use of a professional color palette, Google Fonts, table and form styling, and the CSS Box Model to create a clean, organized, and user-friendly interface.
+
+---
+
+## Features
+
+- Professional and consistent color palette
+- Google Fonts (Merriweather and Poppins)
+- Responsive page layout
+- Card-style sections
+- Styled Add Expense form
+- Styled expense table
+- Alternating table row colors
+- Hover effects for buttons and table rows
+- Rounded corners and shadows
+- Proper spacing using the CSS Box Model
+
+---
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Google Fonts
+
+---
+
+## Project Structure
+
+```
 budget-tracker/
 │
 ├── index.html
 ├── style.css
 ├── README.md
-└── screenshots/
-File Descriptions
-index.html
-Contains the structure of the Budget Tracker, including:
+```
 
-Page heading
-Add Expense form
-Expense table
-style.css
-Contains all styling for the application, including:
+---
 
-Color palette
-Typography
-Form styling
-Button styling
-Table styling
-Card layout
-CSS Box Model implementation
-Hover effects
-README.md
-Provides documentation describing the project, its objectives, technologies used, project structure, and features.
+## File Description
 
-CSS Concepts Applied
-Color Palette
-A consistent color scheme was applied throughout the application to create a clean and professional appearance.
+### index.html
 
-Typography
-Google Fonts were imported to improve readability:
+Contains:
 
-Merriweather for headings
-Poppins for body text
-Form Styling
+- Page Heading
+- Add Expense Form
+- Expense Table
+
+---
+
+### style.css
+
+Contains all visual styling including:
+
+- Typography
+- Color palette
+- Buttons
+- Tables
+- Forms
+- Responsive layout
+- CSS Box Model
+
+---
+
+### README.md
+
+Contains project documentation, features, technologies used, and instructions.
+
+---
+
+## CSS Features Applied
+
+### Color Palette
+
+A consistent palette of blue, gray, and white creates a professional appearance.
+
+### Typography
+
+Google Fonts were used:
+
+- Merriweather (Headings)
+- Poppins (Body Text)
+
+### Form Styling
+
 The Add Expense form includes:
 
-Padding
-Rounded corners
-Borders
-Consistent spacing
-Styled submit button
-Table Styling
-The expense table includes:
+- Padding
+- Rounded corners
+- Borders
+- Styled inputs
+- Styled button
 
-Styled header
-Borders
-Cell padding
-Alternating row colors
-Hover effects
-CSS Box Model
-The following properties were used throughout the project:
+### Expense Table
 
-Margin
-Padding
-Border
-Border Radius
-Box Shadow
-These styles create distinct visual sections that improve organization and readability.
+The table contains:
 
-How to Run the Project
-Download or clone the repository.
-git clone https://github.com/your-username/plp-budget-tracker.git
-Open the project folder.
+- Styled header
+- Borders
+- Cell spacing
+- Alternating row colors
+- Hover effects
 
-Open index.html in any modern web browser.
+### CSS Box Model
 
-No additional software is required.
+The following properties were used:
 
-Learning Outcomes
-Through this project, I learned how to:
+- Margin
+- Padding
+- Border
+- Border Radius
+- Box Shadow
 
-Apply CSS to improve the visual design of a webpage.
-Use Google Fonts to create better typography.
-Design attractive forms and tables.
-Use the CSS Box Model to build organized layouts.
-Create a consistent user interface using reusable styles.
+These create visually distinct cards for:
+
+- Page Heading
+- Add Expense Form
+- Expense Table
+
+---
+
+## Learning Outcomes
+
+Through this project I learned how to:
+
+- Apply professional CSS styling.
+- Use Google Fonts effectively.
+- Create visually attractive forms and tables.
+- Apply the CSS Box Model to improve layout.
+- Design clean and readable web interfaces.
